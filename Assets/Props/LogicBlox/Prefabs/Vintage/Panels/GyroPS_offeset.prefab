@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 3493890308357101729}
   - component: {fileID: 7419751241731155162}
   - component: {fileID: 817690052078018079}
+  - component: {fileID: 2407994930610190008}
   m_Layer: 0
   m_Name: GyroPS
   m_TagString: Untagged
@@ -139,6 +140,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2407994930610190008
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6421221244553283065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300010, guid: bfa10d043a0adda42bcbfeec31138f17, type: 3}
 --- !u!1 &6469655184663932990
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3776207165105240878}
   m_Layer: 0
-  m_Name: GyroPS
+  m_Name: GyroPS_offeset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

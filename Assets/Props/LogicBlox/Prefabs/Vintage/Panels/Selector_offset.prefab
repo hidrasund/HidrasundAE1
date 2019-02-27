@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 940815566322609912}
   - component: {fileID: 8784786123387747577}
   - component: {fileID: 479758083251911084}
+  - component: {fileID: 2502386372209024378}
   m_Layer: 0
   m_Name: SelectrorFrame
   m_TagString: Untagged
@@ -156,6 +157,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2502386372209024378
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402586855843402090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300034, guid: 31843293d6d9ae84abcbf27f5eb9684c, type: 3}
 --- !u!1 &1870057803781940142
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 668603807967339188}
   m_Layer: 0
-  m_Name: MainframeSelector
+  m_Name: Selector_offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -198,6 +213,7 @@ GameObject:
   - component: {fileID: 3307088515496536114}
   - component: {fileID: 8441019200397858808}
   - component: {fileID: 75790189600742061}
+  - component: {fileID: 2265338700211063559}
   m_Layer: 0
   m_Name: SelectorFeet
   m_TagString: Untagged
@@ -264,6 +280,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2265338700211063559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7289028874271392781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300008, guid: 31843293d6d9ae84abcbf27f5eb9684c, type: 3}
 --- !u!1 &7398738007777194783
 GameObject:
   m_ObjectHideFlags: 0

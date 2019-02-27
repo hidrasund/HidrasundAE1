@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1293683647104724819}
   - component: {fileID: 5740646238950597673}
   - component: {fileID: 8945007067509892713}
+  - component: {fileID: 6631225528234710807}
   m_Layer: 0
   m_Name: MainFrame
   m_TagString: Untagged
@@ -77,6 +78,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6631225528234710807
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850969151060391701}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300034, guid: bfa10d043a0adda42bcbfeec31138f17, type: 3}
 --- !u!1 &2125727448096084524
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +257,7 @@ GameObject:
   - component: {fileID: 5784912219195569527}
   - component: {fileID: 3808412523832750896}
   - component: {fileID: 2950525358906563338}
+  - component: {fileID: 6350164809195280504}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -308,6 +324,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6350164809195280504
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3526232624864866890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300012, guid: bfa10d043a0adda42bcbfeec31138f17, type: 3}
 --- !u!1 &3804385097914676137
 GameObject:
   m_ObjectHideFlags: 0
