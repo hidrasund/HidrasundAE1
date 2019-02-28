@@ -30,3 +30,5 @@ public class DeleteAfterXSeconds : MonoBehaviour
 
     }
 }
+
+//Written and commented by Alex Betson

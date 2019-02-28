@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
 public class MouseLook : MonoBehaviour
 {
-
     public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes Axes = RotationAxes.MouseXAndY;
     public float SensitivityX = 5f;

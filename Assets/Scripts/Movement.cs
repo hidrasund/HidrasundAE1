@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
         float ForwardBackwardTranslation = Input.GetAxis("Vertical") * Speed; //Sets forward and backward movements
         float LeftRightTranslation = Input.GetAxis("Horizontal") * Speed; //Sets left and right movements
 
-        transform.Translate(LeftRightTranslation, 0, ForwardBackwardTranslation); //Applies the above movements to the player
+        transform.Translate(new Vector3(LeftRightTranslation, 0, ForwardBackwardTranslation)); //Applies the above movements to the player
     }
 }
 

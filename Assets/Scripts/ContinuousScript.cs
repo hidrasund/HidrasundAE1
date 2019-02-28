@@ -10,3 +10,5 @@ public class ContinuousScript : MonoBehaviour
         Cursor.visible = false;
     }
 }
+
+//Written and commented by Alex Betson
